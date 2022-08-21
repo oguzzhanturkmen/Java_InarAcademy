@@ -7,6 +7,7 @@ public class Chapter01_Exercise11 {
 		int birth= year_in_second / 7;
 		int new_immigrant = year_in_second / 45;
 		int population = 312032486 ;
+
 		System.out.println("First year :" + (population + birth + new_immigrant - death));
 		System.out.println("Second year :" + (population + ((birth + new_immigrant- death) * 2)));
 		System.out.println("Third year :" + (population + ((birth + new_immigrant- death) * 3)));
