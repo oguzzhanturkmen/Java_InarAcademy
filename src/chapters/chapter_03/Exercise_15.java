@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class Exercise_15 {
 	public static void main(String[] args) {
 		
+		
+		
+		//   	NOT FINISHED YET , NOT WORKING PROPERLY
+		
+		
+		
 		int lottery = (int)(Math.random() * 900 + 100);
 
 		Scanner input = new Scanner(System.in);
