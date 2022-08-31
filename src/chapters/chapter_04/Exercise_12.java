@@ -7,8 +7,9 @@ public class Exercise_12 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Enter a hex digit (UPPERCASE) : ");
+		System.out.println("Enter a hex digit  : ");
 		char value = input.next().charAt(0);
+		value = Character.toUpperCase(value);
 		
 		
 		
