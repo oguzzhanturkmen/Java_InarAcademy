@@ -20,7 +20,7 @@ public class Exercise_28 {
 		double height2 = input.nextDouble();
 		
 		if((Math.pow(Math.pow(x1 - x2, 2), 0.5) < width1 / 2 ) && (Math.pow(Math.pow(y1 - y2, 2), 0.5) < height1 / 2 )
-		&& (height1 / 2 + height2 / 2 <= height1) && (width1 / 2 + width2 / 2 <= width1)){
+		&& (height1 / 2 + height2 / 2 + (Math.pow(Math.pow(x1 - x2, 2), 0.5))  <= height1) && (width1 / 2 + width2 / 2 + (Math.pow(Math.pow(y1 - y2, 2), 0.5)) <= width1)){
 			System.out.println("r2 is inside r1");
 		}
 		else if ((x1 + width1 / 2 > x2 - width2) || (y1 + height1 / 2 > y2 - height2))
