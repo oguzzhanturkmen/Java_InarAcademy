@@ -7,7 +7,7 @@ public class Exercise_40 {
 		int counterTails = 0;
 		int flipping ;
 		
-		for(int i = 0 ; i < 1000000000; i++) {
+		for(int i = 0 ; i < 1000000; i++) {
 			flipping = (int)(Math.random() * 2);
 			
 			if(flipping == 0) {
