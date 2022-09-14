@@ -6,7 +6,7 @@ public class Exercise_32 {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
-		System.out.print("Enter your lottery pick (two digits): ");
+		System.out.println("Enter your lottery pick (two digits): ");
 		int guess1 = input.nextInt();
 		int guess2 = input.nextInt();
 		boolean isDifferent = true;
